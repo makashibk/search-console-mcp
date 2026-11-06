@@ -1,0 +1,31 @@
+[project]
+name = "search-console-mcp"
+version = "1.2.0"
+description = "MakashibK's read-only Google Search Console MCP server for Claude Desktop (local, official Google APIs only)"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "MakashibK" }]
+keywords = ["mcp", "model-context-protocol", "claude", "google-search-console", "seo"]
+dependencies = [
+    "mcp==2.3.0",
+    "google-auth==2.59.1",
+    "requests==2.34.2",
+    "tzdata>=2024.1; sys_platform == 'win32'",
+]
+
+[project.urls]
+Homepage = "https://github.com/MakashibK/search-console-mcp"
+Repository = "https://github.com/MakashibK/search-console-mcp"
+Issues = "https://github.com/MakashibK/search-console-mcp/issues"
+
+[project.scripts]
+search-console-mcp = "search_console_mcp.server:main"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["search_console_mcp"]
