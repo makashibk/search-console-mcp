@@ -31,8 +31,6 @@ Claude:  14 pages lost 1,862 clicks (1-28 Sep vs 4-31 Aug, complete days only).
 4. Quit and reopen Claude Desktop. **Settings → Developer** shows `search-console-mcp` as **Running**.
 5. In a new chat, ask: `Use search-console-mcp: call server_status, then list_properties.`
 
-Want it gone again? See [Uninstall](#uninstall).
-
 ---
 
 ## Contents
@@ -347,6 +345,8 @@ If a credentials file was shared by mistake, run `gcloud auth application-defaul
 ---
 
 ## Uninstall
+
+Want it gone again?
 
 Each step is independent: do only what you need.
 
