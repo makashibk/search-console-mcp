@@ -619,4 +619,11 @@ Bug reports and feature requests: [GitHub Issues](https://github.com/makashibk/s
 
 MIT. Copyright (c) 2026 MakashibK. See [LICENSE](LICENSE).
 
-Not affiliated with or endorsed by Google or Anthropic. Google Search Console, Chrome UX Report and PageSpeed Insights are trademarks of Google LLC. Claude is a trademark of Anthropic, PBC.
+## Disclaimer
+
+- This is an independent, community-built tool. It is not affiliated with, endorsed by or sponsored by Google or Anthropic.
+- It is provided "as is", without warranty (see LICENSE). Use it at your own risk and check important numbers before acting on them or sending them to clients; `verify_metric` is there for that.
+- Analysis such as traffic-drop diagnoses, opportunities and alerts is based only on Search Console data and is guidance, not a guarantee of cause or ranking outcome.
+- You are responsible for your own Google Cloud project, OAuth client and API keys, for keeping credentials private, and for following Google's API terms and quotas.
+- It runs on your computer and sends no data to the author. The tools that contact websites or services (live page checks, PageSpeed Insights, Chrome UX Report, DNS lookups) send requests from your machine to those services.
+- The author is not liable for losses, including loss of traffic or revenue, resulting from its use.
