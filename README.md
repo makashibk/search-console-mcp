@@ -1,6 +1,6 @@
-# search-console-mcp
+# Google Search Console MCP Server
 
-**A read-only Google Search Console MCP server for Claude, built for SEO work on real e-commerce sites.**
+**A Google Search Console MCP server for Claude, built for real SEO work.**
 
 search-console-mcp connects Claude Desktop to Google Search Console and gives it 44 tools: performance analysis, a rebuilt Page indexing report, robots.txt monitoring, redirect and HTTPS checks, Core Web Vitals, and Crawl stats from your own server logs. It runs entirely on your machine, talks only to Google's official APIs and the sites you check (plus a public DNS resolver for `check_dns`), and cannot change anything in Search Console.
 
