@@ -16,9 +16,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/MakashibK/search-console-mcp"
-Repository = "https://github.com/MakashibK/search-console-mcp"
-Issues = "https://github.com/MakashibK/search-console-mcp/issues"
+Homepage = "https://github.com/makashibk/search-console-mcp"
+Repository = "https://github.com/makashibk/search-console-mcp"
+Issues = "https://github.com/makashibk/search-console-mcp/issues"
 
 [project.scripts]
 search-console-mcp = "search_console_mcp.server:main"

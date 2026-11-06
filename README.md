@@ -4,7 +4,7 @@
 
 search-console-mcp connects Claude Desktop to Google Search Console and gives it 44 tools: performance analysis, a rebuilt Page indexing report, robots.txt monitoring, redirect and HTTPS checks, Core Web Vitals, and Crawl stats from your own server logs. It runs entirely on your machine, talks only to Google's official APIs and the sites you check (plus a public DNS resolver for `check_dns`), and cannot change anything in Search Console.
 
-Built and maintained by [MakashibK](https://github.com/MakashibK).
+Built and maintained by [MakashibK](https://github.com/makashibk).
 
 Example (illustrative numbers):
 
@@ -25,7 +25,7 @@ Claude:  14 pages lost 1,862 clicks (1-28 Sep vs 4-31 Aug, complete days only).
 1. Create a Google OAuth client and sign in with the read-only scope ([steps 1 and 2](#1-create-an-oauth-client)).
 2. Install the server:
    ```
-   pipx install git+https://github.com/MakashibK/search-console-mcp.git
+   pipx install git+https://github.com/makashibk/search-console-mcp.git
    ```
 3. Add it to Claude Desktop under the name `search-console-mcp` ([step 4](#4-add-it-to-claude-desktop)).
 4. Quit and reopen Claude Desktop. **Settings → Developer** shows `search-console-mcp` as **Running**.
@@ -244,13 +244,13 @@ If you also use Google's Ads or Analytics MCP servers, sign in once with all the
 ### 3. Install the server
 
 ```
-pipx install git+https://github.com/MakashibK/search-console-mcp.git
+pipx install git+https://github.com/makashibk/search-console-mcp.git
 ```
 
 Or from a clone:
 
 ```
-git clone https://github.com/MakashibK/search-console-mcp.git
+git clone https://github.com/makashibk/search-console-mcp.git
 cd search-console-mcp
 pipx install .
 ```
@@ -323,7 +323,7 @@ Use search-console-mcp: call server_status, then list_properties.
 Quit Claude Desktop first (Windows locks files that are in use), then:
 
 ```
-pipx install --force git+https://github.com/MakashibK/search-console-mcp.git
+pipx install --force git+https://github.com/makashibk/search-console-mcp.git
 ```
 
 If you installed from a clone, run `git pull` and then `pipx install --force .` in the cloned folder. Your database and notes are stored separately and survive updates and reinstalls.
@@ -554,7 +554,7 @@ The server writes errors to `server.log` in the data folder. Claude Desktop's **
 ## Development
 
 ```
-git clone https://github.com/MakashibK/search-console-mcp.git
+git clone https://github.com/makashibk/search-console-mcp.git
 cd search-console-mcp
 pip install -e . pytest
 python -m pytest -q tests
@@ -592,7 +592,7 @@ scripts/            gen_tools_doc.py
 tests/              Offline test suite
 ```
 
-Bug reports and feature requests: [GitHub Issues](https://github.com/MakashibK/search-console-mcp/issues).
+Bug reports and feature requests: [GitHub Issues](https://github.com/makashibk/search-console-mcp/issues).
 
 ---
 
